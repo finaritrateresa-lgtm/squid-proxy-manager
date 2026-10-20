@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Gestion Proxy Squid
+Comment=Interface de gestion du filtrage Squid
+Exec=gnome-terminal -- bash -c "sudo bash /home/teresa/squid-proxy-manager/gerer_proxy.sh; read -p 'Appuyez sur Entree pour fermer...' dummy"
+Icon=utilities-terminal
+Terminal=false
+Categories=Utility;
